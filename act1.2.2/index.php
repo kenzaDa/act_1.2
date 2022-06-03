@@ -1,3 +1,4 @@
+<?php include_once("utils.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,12 +11,11 @@
 <header>
     <?php include_once("header.php"); ?>
 </header>
-<body>
-    <?php include_once("utils.php"); ?>
-    <?php print_r($articles);?>
 
-</body>
-<footer >
-<?php include_once("footer.php"); ?>
+    <?php print_r($articles)?>
+<footer>
+<?php
+include 'footer.php';
+?>
 </footer>
 </html>
